@@ -11,7 +11,7 @@
     "http-server": "^0.9.0",
     "testcafe": "^0.16.0"
   },
-  "description": "passive-branch of sortable just for a temporary solution.All copyright is owned by Konstantin Lebedev <ibnRubaXa@gmail.com>."
+  "description": "passive-branch of sortable just for a temporary solution.All copyright is owned by Konstantin Lebedev <ibnRubaXa@gmail.com>.",
   "main": "Sortable.js",
   "scripts": {
     "test": "./node_modules/grunt/bin/grunt",
