@@ -1,0 +1,48 @@
+{
+  "name": "sortableTS",
+  "exportName": "sortableTS",
+  "version": "1.6.1",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-testcafe": "^0.15.0",
+    "grunt-version": "*",
+    "http-server": "^0.9.0",
+    "testcafe": "^0.16.0"
+  },
+  "description": "passive-branch of sortable just for a temporary solution.All copyright is owned by Konstantin Lebedev <ibnRubaXa@gmail.com>."
+  "main": "Sortable.js",
+  "scripts": {
+    "test": "./node_modules/grunt/bin/grunt",
+    "prepublish": "./node_modules/grunt/bin/grunt",
+    "http-server": "http-server -s ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mistyjae/sortableTS.git"
+  },
+  "files": [
+    "Sortable.js",
+    "Sortable.min.js"
+  ],
+  "keywords": [
+    "sortable",
+    "reorder",
+    "drag",
+    "meteor",
+    "angular",
+    "ng-sortable",
+    "react",
+    "mixin"
+  ],
+  "author": "Konstantin Lebedev <ibnRubaXa@gmail.com>",
+  "license": "MIT",
+  "spm": {
+    "main": "Sortable.js",
+    "ignore": [
+      "meteor",
+      "st"
+    ]
+  }
+}
